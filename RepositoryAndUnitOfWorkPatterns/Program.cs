@@ -14,7 +14,7 @@ namespace RepositoryAndUnitOfWorkPatterns
         {
             using (var unitOfWork = new UnitOfWork(new AppContext()))
             {
-                // Example1
+                // Example1 
                 var customer1 = unitOfWork.Customers.Get(1);
 
                 // Example2
